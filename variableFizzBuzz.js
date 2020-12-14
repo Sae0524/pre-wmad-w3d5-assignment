@@ -8,7 +8,24 @@
 // if the end number is lower than the start, console.log("Improper Input");
 
 const fizzbuzz = function (start, end) {
+  if (end < start){
+    console.log("Improper Input")
+  }
+  for (let i = srart; i <= end; i++){
+    if (i % 5 === 0 && i % 3 === 0){
+      console.log("fizzbuzz")
 
+    }else if (i % 5 === 0){
+      console.log("fizz")
+
+    }else if (i % 3 === 0){
+      console.log("buzz")
+    
+    }else{
+      console.log(i)
+    }
+  }
+  console.log("\n")
 };
 
 
